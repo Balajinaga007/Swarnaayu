@@ -142,7 +142,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* Conversation Flow */}
-        <div className="mb-20 animate-slide-up">
+        {/* <div className="mb-20 animate-slide-up">
           <h3 className="text-2xl font-bold text-center text-foreground mb-12">
             The Swarn Aayu Conversation Style
           </h3>
@@ -160,7 +160,7 @@ const FeaturesSection = () => {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Learning & Improvement Cycle */}
         {/* <div className="bg-gradient-hero rounded-2xl p-8 md:p-12 animate-fade-in">
