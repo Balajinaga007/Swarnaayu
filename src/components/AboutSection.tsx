@@ -11,12 +11,12 @@ const AboutSection = () => {
       description: "Choice, quality assurance, and personalized care that respects cultural values and individual preferences.",
       benefits: ["Personalized AI companion", "Cultural understanding", "24/7 support"]
     },
-    // {
-    //   icon: Heart,
-    //   title: "For Families",
-    //   description: "Peace of mind through transparent care tracking and seamless communication with loved ones.",
-    //   benefits: ["Real-time updates", "Care coordination", "Family involvement"]
-    // },
+    {
+      icon: Heart,
+      title: "For Families",
+      description: "Peace of mind through transparent care tracking and seamless communication with loved ones.",
+      benefits: ["Real-time updates", "Care coordination", "Family involvement"]
+    },
     {
       icon: Shield,
       title: "For Providers",
