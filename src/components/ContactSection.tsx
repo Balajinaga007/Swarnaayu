@@ -180,7 +180,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <div className="text-muted-foreground">hello@swaraaayu.com</div>
+                      <div className="text-muted-foreground">contact@swarnaayu.com</div>
                     </div>
                   </div>
                   
@@ -190,7 +190,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Phone</div>
-                      <div className="text-muted-foreground">+91 9876 543 210</div>
+                      <div className="text-muted-foreground">+91 6305517488</div>
                     </div>
                   </div>
                   
@@ -200,7 +200,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Location</div>
-                      <div className="text-muted-foreground">Bangalore, India</div>
+                      <div className="text-muted-foreground">Razole, India</div>
                     </div>
                   </div>
                 </div>
@@ -213,25 +213,46 @@ const ContactSection = () => {
                 <h3 className="text-xl font-bold mb-4">Partner with Us</h3>
                 <p className="mb-6 opacity-90">
                   Join our open platform ecosystem and help us transform senior care in India. 
-                  We're looking for healthcare providers, wellness platforms, and AgeTech companies.
+                  We're looking for partners in:
                 </p>
                 
-                <div className="space-y-3">
-                  <div className="flex items-center gap-2">
+                <div className="space-y-0.5">
+                  <div className="flex items-center gap-1">
                     <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
-                    <span className="text-sm">API Integration Support</span>
+                    <span className="text-sm">Wellness platforms</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-1">
                     <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
-                    <span className="text-sm">Quality Assurance Standards</span>
+                    <span className="text-sm">Healthcare providers</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-1">
                     <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
-                    <span className="text-sm">Revenue Sharing Models</span>
+                    <span className="text-sm">AgeTech companies</span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  
+                  {/* <div className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
                     <span className="text-sm">Verified Customer Access</span>
+                  </div> */}
+                </div>
+                <h3 className="text-xl pt-4 font-bold mb-4">We are offering:</h3>
+                 <div className="space-y-1">
+                  <div className="flex items-center gap-1">
+                    <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
+                    <span className="text-sm">API Integration</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
+                    <span className="text-sm">MCP Support</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
+                    <span className="text-sm">Service Embedding</span>
+                  </div>
+                  
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-care-foreground/60" />
+                    <span className="text-sm">Early Access to New Features</span>
                   </div>
                 </div>
               </CardContent>

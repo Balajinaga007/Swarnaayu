@@ -1,8 +1,21 @@
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Heart, Shield, Users } from "lucide-react";
 import heroImage from "@/assets/hero-seniors.jpg";
 
 const HeroSection = () => {
+
+  const careTypes = ["Trusted Digital Care"];
+  const [careTypeIndex, setCareTypeIndex] = useState(0);
+  const careType = careTypes[careTypeIndex];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCareTypeIndex((prev) => (prev + 1) % careTypes.length);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -15,9 +28,9 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Empowering India's Seniors with{" "}
-                <span className="bg-gradient-primary bg-clip-text text-transparent">
-                   Loving care
+                Empowering Seniors with{" "}
+                <span className="bg-primary bg-clip-text text-transparent">
+                  {careType}
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">

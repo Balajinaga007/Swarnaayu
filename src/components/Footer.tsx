@@ -25,15 +25,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-sm">
                 <Mail className="h-4 w-4" />
-                <span>hello@swaraaayu.com</span>
+                <span>contact@swarnaayu.com</span>
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <Phone className="h-4 w-4" />
-                <span>+91 9876 543 210</span>
+                <span>+91 6305517488</span>
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>Bangalore, India</span>
+                <span>Razole, India</span>
               </div>
             </div>
           </div>
@@ -74,11 +74,7 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="text-center mt-6 pt-6 border-t border-background/20">
-            <p className="text-background/60 text-sm">
-              Empowering India's Golden Age through Technology and Compassion 🙏
-            </p>
-          </div>
+          
         </div>
       </div>
     </footer>
