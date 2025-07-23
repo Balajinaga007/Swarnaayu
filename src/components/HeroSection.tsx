@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-seniors.jpg";
 
 const HeroSection = () => {
 
-  const careTypes = ["Trusted Digital Care"];
+  const careTypes = ["Trusted Care"];
   const [careTypeIndex, setCareTypeIndex] = useState(0);
   const careType = careTypes[careTypeIndex];
 
